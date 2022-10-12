@@ -115,61 +115,67 @@ public class HW7 {
     } // Task 1_2
 
     public static int switchOfDay1_3(int day) {
-       if (day > 0 || day < 32)
+       if (day > 0 && day < 32) {
            return day;
-        return day;
+
+       } else {
+           return -1;
+       }
     } // Task 1_3
 
-    public static void switchOfDate1_4(String month, int weekly, int day) {
-        switchOfMonth1_1(month);
-        switchOfWeekly1_2(weekly);
-        switchOfDay1_3(day);
-
+    public static void switchOfDate1_4(int month, int weekly, int day) {
+        System.out.println(switchOfMonth1_1(month) + "\n" + switchOfWeekly1_2(weekly) + "\n" + switchOfDay1_3(day));
     } // Task 1_3
-
-    private static void switchOfMonth1_1(String month) {
-        return;
-    }
 
     public static void main(String[] args) {
 
         // Task_1_1
-        // ĞĞ°Ğ¿Ğ¸ÑĞ°Ñ‚ÑŒ Ğ¼ĞµÑ‚Ğ¾Ğ´ Ñ Ğ¾Ğ¿ĞµÑ€Ğ°Ñ‚Ğ¾Ñ€Ğ¾Ğ¼ switch, ĞºĞ¾Ñ‚Ğ¾Ñ€Ñ‹Ğ¹ Ğ¿ĞµÑ‡Ğ°Ñ‚Ğ°ĞµÑ‚ Ğ¼ĞµÑÑÑ†, ĞºĞ¾Ğ³Ğ´Ğ° Ğ²Ñ‹Ğ±Ğ¸Ñ€Ğ°ĞµĞ¼ Ñ‡Ğ¸ÑĞ»Ğ¾.
-        // ĞŸÑ€Ğ¾Ñ‚ĞµÑÑ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ½Ğ° Ğ³Ñ€Ğ°Ğ½Ğ¸Ñ‡Ğ½Ñ‹Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ.
+        // Íàïèñàòü ìåòîä ñ îïåğàòîğîì switch, êîòîğûé ïå÷àòàåò ìåñÿö, êîãäà âûáèğàåì ÷èñëî.
+        // Ïğîòåñòèğîâàòü íà ãğàíè÷íûå çíà÷åíèÿ.
 
-        // AAA - triple "A" Ğ¿Ñ€Ğ°Ğ²Ğ¸Ğ»Ğ¾ ÑĞ¾Ğ·Ğ´Ğ°Ğ½Ğ¸Ñ Ğ°Ğ²Ñ‚Ğ¾Ğ¼Ğ°Ñ‚Ğ¸Ğ·Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ğ¾Ğ³Ğ¾ Ñ‚ĞµÑÑ‚ ĞºĞµĞ¹ÑĞ°
+        // AAA - triple "A" ïğàâèëî ñîçäàíèÿ àâòîìàòèçèğîâàííîãî òåñò êåéñà
 
-        // A = arrange (Ğ¾Ğ±ÑŠÑĞ²Ğ¸Ñ‚ÑŒ Ğ²ÑĞµ Ğ´Ğ°Ğ½Ğ½Ñ‹Ğµ, ĞºĞ¾Ñ‚Ğ¾Ñ€Ñ‹Ğµ Ğ½Ğ°Ğ¼ Ğ¸Ğ·Ğ²ĞµÑÑ‚Ğ½Ñ‹)
+        // A = arrange (îáúÿâèòü âñå äàííûå, êîòîğûå íàì èçâåñòíû)
         int month = 15;
         String exceptedResult = "Invalid month";
 
-        // A = act (Ğ²Ñ‹Ğ·Ğ¾Ğ² Ğ¼ĞµÑ‚Ğ¾Ğ´Ğ°, Ğ´ĞµĞ¹ÑÑ‚Ğ²Ğ¸Ğµ Ğ´Ğ»Ñ Ğ¿Ğ¾Ğ»ÑƒÑ‡ĞµĞ½Ğ¸Ñ actual result)
+        // A = act (âûçîâ ìåòîäà, äåéñòâèå äëÿ ïîëó÷åíèÿ actual result)
         String actualResult = switchOfMonth1_1(month);
 
-        // A = assert (ÑÑ€Ğ°Ğ²Ğ½ĞµĞ½Ğ¸Ğµ excepted result c actual result Ğ¸ Ğ²Ñ‹Ğ²Ğ¾Ğ´, Ğ¿Ñ€Ğ¾ÑˆĞµĞ» Ñ‚ĞµÑÑ‚ Ğ¸Ğ»Ğ¸ ÑƒĞ¿Ğ°Ğ»)
+        // A = assert (ñğàâíåíèå excepted result c actual result è âûâîä, ïğîøåë òåñò èëè óïàë)
         verifyEquals(exceptedResult,actualResult);
 
-        // Report Task_1 (Ğ¿ĞµÑ‡Ğ°Ñ‚ÑŒ Ñ€ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚Ğ°)
+        // Report Task_1 (ïå÷àòü ğåçóëüòàòà)
         printTCNumber();
         printTestResult(verifyEquals(exceptedResult,actualResult));
         System.out.println(switchOfMonth1_1(month));
+
+        int month1_4 = 1;
+        int weekly = 1;
+        int day = 32;
+        switchOfDate1_4(month1_4,weekly,day);
+
+        // Task_2
+        printTCNumber();
+        System.out.println("Ñäåëàí â HW6");
+        // Ñäåëàí â HW6
 
 
 
         {
         // Task_1
         //
-        // ĞŸÑ€Ğ¾Ñ‚ĞµÑÑ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ½Ğ° Ğ³Ñ€Ğ°Ğ½Ğ¸Ñ‡Ğ½Ñ‹Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ñ.
+        // Ïğîòåñòèğîâàòü íà ãğàíè÷íûå çíà÷åíèÿ.
 
-        // AAA - triple "A" Ğ¿Ñ€Ğ°Ğ²Ğ¸Ğ»Ğ¾ ÑĞ¾Ğ·Ğ´Ğ°Ğ½Ğ¸Ñ Ğ°Ğ²Ñ‚Ğ¾Ğ¼Ğ°Ñ‚Ğ¸Ğ·Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ğ¾Ğ³Ğ¾ Ñ‚ĞµÑÑ‚ ĞºĞµĞ¹ÑĞ°
+        // AAA - triple "A" ïğàâèëî ñîçäàíèÿ àâòîìàòèçèğîâàííîãî òåñò êåéñà
 
-        // A = arrange (Ğ¾Ğ±ÑŠÑĞ²Ğ¸Ñ‚ÑŒ Ğ²ÑĞµ Ğ´Ğ°Ğ½Ğ½Ñ‹Ğµ, ĞºĞ¾Ñ‚Ğ¾Ñ€Ñ‹Ğµ Ğ½Ğ°Ğ¼ Ğ¸Ğ·Ğ²ĞµÑÑ‚Ğ½Ñ‹)
+        // A = arrange (îáúÿâèòü âñå äàííûå, êîòîğûå íàì èçâåñòíû)
 
-        // A = act (Ğ²Ñ‹Ğ·Ğ¾Ğ² Ğ¼ĞµÑ‚Ğ¾Ğ´Ğ°, Ğ´ĞµĞ¹ÑÑ‚Ğ²Ğ¸Ğµ Ğ´Ğ»Ñ Ğ¿Ğ¾Ğ»ÑƒÑ‡ĞµĞ½Ğ¸Ñ actual result)
+        // A = act (âûçîâ ìåòîäà, äåéñòâèå äëÿ ïîëó÷åíèÿ actual result)
 
-        // A = assert (ÑÑ€Ğ°Ğ²Ğ½ĞµĞ½Ğ¸Ğµ excepted result c actual result Ğ¸ Ğ²Ñ‹Ğ²Ğ¾Ğ´, Ğ¿Ñ€Ğ¾ÑˆĞµĞ» Ñ‚ĞµÑÑ‚ Ğ¸Ğ»Ğ¸ ÑƒĞ¿Ğ°Ğ»)
+        // A = assert (ñğàâíåíèå excepted result c actual result è âûâîä, ïğîøåë òåñò èëè óïàë)
 
-        // Report Task_1 (Ğ¿ĞµÑ‡Ğ°Ñ‚ÑŒ Ñ€ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚Ğ°)
+        // Report Task_1 (ïå÷àòü ğåçóëüòàòà)
     }
 
 
