@@ -114,11 +114,11 @@ public class HW7 {
         return weeklyString;
     } // Task 1_2
 
-    public static String switchOfDay1_3(int weekly) {
-        weekly = weekly;
+    public static String switchOfDay1_3(int day) {
+        day = day;
         String weeklyString;
 
-        switch (weekly) {
+        switch (day) {
             case 1:
                 weeklyString = "Monday";
                 break;
