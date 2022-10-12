@@ -80,7 +80,71 @@ public class HW7 {
                 break;
         }
         return monthString;
-    } // Task 1
+    } // Task 1_1
+
+    public static String switchOfWeekly1_2(int weekly) {
+        weekly = weekly;
+        String weeklyString;
+
+        switch (weekly) {
+            case 1:
+                weeklyString = "Monday";
+                break;
+            case 2:
+                weeklyString = "Tuesday";
+                break;
+            case 3:
+                weeklyString = "Wednesday";
+                break;
+            case 4:
+                weeklyString = "Thursday";
+                break;
+            case 5:
+                weeklyString = "Friday";
+                break;
+            case 6:
+                weeklyString = "Saturday";
+                break;
+            case 7:
+                weeklyString = "Sunday";
+                break;
+            default:
+                weeklyString = "Invalid month";
+        }
+        return weeklyString;
+    } // Task 1_2
+
+    public static String switchOfDay1_3(int weekly) {
+        weekly = weekly;
+        String weeklyString;
+
+        switch (weekly) {
+            case 1:
+                weeklyString = "Monday";
+                break;
+            case 2:
+                weeklyString = "Tuesday";
+                break;
+            case 3:
+                weeklyString = "Wednesday";
+                break;
+            case 4:
+                weeklyString = "Thursday";
+                break;
+            case 5:
+                weeklyString = "Friday";
+                break;
+            case 6:
+                weeklyString = "Saturday";
+                break;
+            case 7:
+                weeklyString = "Sunday";
+                break;
+            default:
+                weeklyString = "Invalid month";
+        }
+        return weeklyString;
+    } // Task 1_3
 
     public static void main(String[] args) {
 
@@ -101,8 +165,10 @@ public class HW7 {
         verifyEquals(exceptedResult,actualResult);
 
         // Report Task_1 (печать результата)
+        printTCNumber();
         printTestResult(verifyEquals(exceptedResult,actualResult));
         System.out.println(switchOfMonth1_1(month));
+
 
 
         {
