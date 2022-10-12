@@ -5,7 +5,7 @@ public class HW7 {
     static int tcNumber = 1; // numbering variable for tasks
 
     public static void printTCNumber() {
-        System.out.println("\n\033[1;32m" + "Task_" + tcNumber++ + "\u001B[0m");
+        System.out.println("\n\u001B[34m" + "Task_" + tcNumber++ + "\u001B[0m");
     } // numbering method of tasks
 
     public static void printTestResult(String value) {
@@ -114,37 +114,22 @@ public class HW7 {
         return weeklyString;
     } // Task 1_2
 
-    public static String switchOfDay1_3(int day) {
-        day = day;
-        String weeklyString;
-
-        switch (day) {
-            case 1:
-                weeklyString = "Monday";
-                break;
-            case 2:
-                weeklyString = "Tuesday";
-                break;
-            case 3:
-                weeklyString = "Wednesday";
-                break;
-            case 4:
-                weeklyString = "Thursday";
-                break;
-            case 5:
-                weeklyString = "Friday";
-                break;
-            case 6:
-                weeklyString = "Saturday";
-                break;
-            case 7:
-                weeklyString = "Sunday";
-                break;
-            default:
-                weeklyString = "Invalid month";
-        }
-        return weeklyString;
+    public static int switchOfDay1_3(int day) {
+       if (day > 0 || day < 32)
+           return day;
+        return day;
     } // Task 1_3
+
+    public static void switchOfDate1_4(String month, int weekly, int day) {
+        switchOfMonth1_1(month);
+        switchOfWeekly1_2(weekly);
+        switchOfDay1_3(day);
+
+    } // Task 1_3
+
+    private static void switchOfMonth1_1(String month) {
+        return;
+    }
 
     public static void main(String[] args) {
 
