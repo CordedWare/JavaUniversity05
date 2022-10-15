@@ -1,5 +1,10 @@
 package homework;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.SortedMap;
+import java.util.stream.Collectors;
+
 public class HW7 {
 
     static int tcNumber = 1; // numbering variable for tasks
@@ -159,6 +164,75 @@ public class HW7 {
         printTCNumber();
         System.out.println("Сделан в HW6");
         // Сделан в HW6
+
+
+        // Task_3
+        // Создать массив catsNames[], заполнить его любыми своими значениями
+        // (не такими, как были на уроке).
+        printTCNumber();
+
+        String catsNames[] = new String[8];
+
+        catsNames[0] = "Java";
+        catsNames[1] = "Python";
+        catsNames[2] = "Groovy";
+        catsNames[3] = "Maven";
+        catsNames[4] = "Tomcat";
+        catsNames[5] = "Ubuntu";
+        catsNames[6] = "Postman";
+        catsNames[7] = "PostgreSQL";
+
+        System.out.println(Arrays.toString(catsNames));
+
+        // Task_4
+        // В массиве catsNames[] изменить значение элемента с индексом 4 на “Рыжик”,
+        // а значение элемента с индексом 1 на “Черныш”. (ВЗЯЛ СВОИ)
+        printTCNumber();
+
+        catsNames[4] = "Lipton";
+        catsNames[1] = "Coffee";
+
+        System.out.println(Arrays.toString(new String[]{catsNames[4]}));
+        System.out.println(Arrays.toString(catsNames[1].toCharArray()));
+        System.out.println(Arrays.toString(catsNames));
+
+        // Task_5
+        // Создать массив catsColors[] и заполнить его значениями (см картинку в презентации).
+        printTCNumber();
+
+        String catsColors[] = {"White", "Orange", "Blue", "Green", "Pink", "Black", "Red",
+                "Vanil"};
+
+        System.out.println(Arrays.toString(catsColors));
+        System.out.println(catsColors.length);
+
+        // Task_6
+        // Создать массив catsAges[] и заполнить его любыми целочисленными валидными значениями.
+        printTCNumber();
+
+        int catsAges[] = {2, 0, 5, 7, 6, 4, 9, 1};
+
+        System.out.println(Arrays.toString(catsAges));
+        System.out.println();
+
+        // Task_7
+        // Создать массив isCatRed[] и заполнить его соответствующими значениями
+        // (см картинку в презентации. Red = рыжий)
+        printTCNumber();
+
+        boolean isCatRed[] = {false, false, false, false, false, false, true, false};
+        for (int i = 0 ; i < isCatRed.length; i++) {
+            for (int j = i + 1; j < isCatRed.length; j ++) {
+                if (isCatRed[i] && isCatRed[j]) {
+                    isCatRed[i] = false;
+                    isCatRed[j] = true;
+                }
+            }
+        }
+        for (int j = 0; j < isCatRed.length; j++)
+            if(isCatRed[j] == true) System.out.println(isCatRed[j]);
+
+
 
 
 
