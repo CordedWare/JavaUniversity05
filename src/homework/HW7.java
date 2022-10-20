@@ -132,6 +132,54 @@ public class HW7 {
         System.out.println(switchOfMonth1_1(month) + "\n" + switchOfWeekly1_2(weekly) + "\n" + switchOfDay1_3(day));
     } // Task 1_3
 
+    public static void returnUniversalFor(int start, int end, int step) {
+        if (step == 0) {
+            System.out.print("Error! Enter correct step number");
+        } else {
+
+            if (start < end && step > 0) {                     // 1
+                int start1 = start - start % step;
+                if (start1 < start) {
+                    start1 += step;
+                }
+
+                for (int i = start1; i <= end; i += step) {
+                    System.out.print(i + " ");
+                }                                              // 1
+
+            } else if (start > end && step > 0) {              // 2
+                int start1 = start - start % step;
+                if (start1 > start) {
+                    start1 -= step;
+                }
+
+                for (int i = start1; i >= end; i -= step) {
+                    System.out.print(i + " ");
+                }                                              // 2
+
+            } else if (start < end && step < 0) {              // 3
+                int start1 = start - start % step;
+                if (start1 < start) {
+                    start1 -= step;
+                }
+
+                for (int i = start1; i <= end; i -= step) {
+                    System.out.print(i + " ");
+                }                                              // 3
+
+            } else if (start > end && step < 0) {              // 4
+                int start1 = start - start % step;
+                if (start1 > start) {
+                    start1 += step;
+                }
+
+                for (int i = start1; i >= end; i += step) {
+                    System.out.print(i + " ");
+                }                                              // 4
+            }
+        }
+    }
+
     public static void main(String[] args) {
 
         // Task_1_1
@@ -162,7 +210,17 @@ public class HW7 {
 
         // Task_2
         printTCNumber();
-        System.out.println("Сделан в HW6");
+        returnUniversalFor(1,7,7);
+        System.out.println();
+        returnUniversalFor(-1,-26,-7);
+        System.out.println();
+        returnUniversalFor(-1,26,7);
+        System.out.println();
+        returnUniversalFor(1,-26,-7);
+        System.out.println();
+        returnUniversalFor(1,-26,0);
+        System.out.println();
+        returnUniversalFor(7,7,7);
         // Сделан в HW6
 
 
@@ -200,8 +258,8 @@ public class HW7 {
         // Создать массив catsColors[] и заполнить его значениями (см картинку в презентации).
         printTCNumber();
 
-        String catsColors[] = {"White", "Orange", "Blue", "Green", "Pink", "Black", "Red",
-                "Vanil"};
+        String catsColors[] = {"White", "Orange", "Blue", "Green",
+                               "Pink", "Black", "Red", "Vanil"};
 
         System.out.println(Arrays.toString(catsColors));
         System.out.println(catsColors.length);
@@ -220,19 +278,40 @@ public class HW7 {
         // (см картинку в презентации. Red = рыжий)
         printTCNumber();
 
-        boolean isCatRed[] = {false, false, false, false, false, false, true, false};
-        for (int i = 0 ; i < isCatRed.length; i++) {
-            for (int j = i + 1; j < isCatRed.length; j ++) {
-                if (isCatRed[i] && isCatRed[j]) {
-                    isCatRed[i] = false;
-                    isCatRed[j] = true;
-                }
-            }
-        }
+        boolean isCatRed[] = new boolean[] {false, false, false, false, false, false, true, false};
+
         for (int j = 0; j < isCatRed.length; j++)
             if(isCatRed[j] == true) System.out.println(isCatRed[j]);
+        System.out.println(Arrays.toString(new boolean[]{isCatRed[6]}));
 
 
+        // Task_8
+        // Распечатать для массивов catsNames[] и catsColors[]:
+        // имя кота в коробке с номером 6
+        // имена котов из коробок с четными индексами
+        // имена котов из коробок, чьи индексы кратны 4
+        // цвет котов из коробок с нечетными индексами
+        // цвет котов из коробок, чьи индексы кратны 3, но не кратны 2
+        printTCNumber();
+
+        System.out.println(Arrays.toString(new String[]{catsNames[6]}));
+        System.out.println(Arrays.toString(new String[]{catsColors[6]}));
+
+//        catsNames
+//        int n=0;
+//        int m=0;
+//        for(int i=0;i<catsNames.length;i++){
+//            if(catsNames[i] % 2 ==0){
+//                // Записываем четное число
+//                n++;
+//            }
+//            else {
+//                // Записываем нечетное число
+//                m++;
+//            }
+//        }
+//        System.out.println ("четное число:" + n + "штука");
+//        System.out.println ("нечетное число:" + m + "штука");
 
 
 
