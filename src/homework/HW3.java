@@ -99,15 +99,15 @@ public class HW3 {
             test1.ff = 10.09999f;
             test2.ff = 20.099999f;
 
-            System.out.println("Double с именем dd: " + test1.dd);
-            System.out.println("Double с именем dd: " + test2.dd);
-            System.out.println("Сумма двух чисел Double dd: " + (test2.dd + test1.dd));
+            System.out.println("Double пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ dd: " + test1.dd);
+            System.out.println("Double пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ dd: " + test2.dd);
+            System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Double dd: " + (test2.dd + test1.dd));
 
             System.out.println();
 
-            System.out.println("Float с именем ff: " + test1.ff);
-            System.out.println("Float с именем ff: " + test2.ff);
-            System.out.println("Сумма двух чисел Float ff: " + (test1.ff + test2.ff + "\n"));
+            System.out.println("Float пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ ff: " + test1.ff);
+            System.out.println("Float пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ ff: " + test2.ff);
+            System.out.println("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Float ff: " + (test1.ff + test2.ff + "\n"));
 
         } // Final #7
 
@@ -240,7 +240,7 @@ public class HW3 {
             System.out.println(l1 + "\n" + l2 + "\n" + l3 + "\n" + l4 + "\n");
 
         } // Final #12
-        // остальные дз перенесены в класс HW3parth2
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ HW3parth2
     }
 }
 

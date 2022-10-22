@@ -37,10 +37,10 @@ public class HW3parth2 {
         Integer num2 = 1;
 
         if (num1.equals(num2) == true) {
-            System.out.println("Если num1 равно num2, то результат сравнения методом .equals() = "
+            System.out.println("пїЅпїЅпїЅпїЅ num1 пїЅпїЅпїЅпїЅпїЅ num2, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ .equals() = "
                     + num1.equals(num2) + "\n");
         } else {
-            System.out.println("Если num1 не равно num2, то результат сравнения методом .equals() = "
+            System.out.println("пїЅпїЅпїЅпїЅ num1 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ num2, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ .equals() = "
                     + num1.equals(num2) + "\n");
         }
 //15
@@ -50,7 +50,7 @@ public class HW3parth2 {
         int number1 = 1;
         int number2 = 1;
 
-        if (number1 == number2) System.out.println("a) одинаковые значения");
+        if (number1 == number2) System.out.println("a) пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
         number2 = 2;
         if (number1 < number2) System.out.println("b) number1 < number2");
         number1 = 3;
@@ -63,7 +63,7 @@ public class HW3parth2 {
         Float aFloat = Float.valueOf(234.9999f);
         int bInt = aFloat.intValue();
 
-        System.out.println("Float 234.9999f перевели в int = " + bInt + "\n");
+        System.out.println("Float 234.9999f пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ int = " + bInt + "\n");
 
 //17
 
@@ -74,8 +74,8 @@ public class HW3parth2 {
         double newDouble1 = 15.4;
         double newDouble2 = 18.6;
 
-        Double newD1 = new Double(newDouble1);      // 1 вариант присваивания
-        Double newD2 = valueOf(newDouble2);  // 2 вариант присваивания
+        Double newD1 = new Double(newDouble1);      // 1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+        Double newD2 = valueOf(newDouble2);  // 2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
         System.out.println(sum(newD1,newD2) + "\n");
 //18
@@ -134,12 +134,12 @@ public class HW3parth2 {
 //22
         System.out.println("Task: 22" + "\n");
 
-        float catBodyTempMax = 39.5f; // C°
-        float catBodyTempMin = 38.2f; // C°
+        float catBodyTempMax = 39.5f; // CпїЅ
+        float catBodyTempMin = 38.2f; // CпїЅ
 
-        System.out.println("Максиальная температура кота = " + Float.max(catBodyTempMax,catBodyTempMin) + " C°");
-        System.out.println("Минимальная температура кота = " + Float.min(catBodyTempMax,catBodyTempMin) + " C°");
-        System.out.println("Средняя температура кота = " + (catBodyTempMax+catBodyTempMin)/2 + " C°\n");
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ = " + Float.max(catBodyTempMax,catBodyTempMin) + " CпїЅ");
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ = " + Float.min(catBodyTempMax,catBodyTempMin) + " CпїЅ");
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ = " + (catBodyTempMax+catBodyTempMin)/2 + " CпїЅ\n");
 //22
 
 //23
@@ -148,19 +148,19 @@ public class HW3parth2 {
         Number n;
 
         n = 999_999_999;
-        System.out.println("Переменная n может принимать значения: " +
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ n пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " +
                 "n = " + n);
 
         n = 10;
-        System.out.println("Переменная n может принимать значения: " +
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ n пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " +
                 "n = " + n);
 
         n = 10.999_999_999;
-        System.out.println("Переменная n может принимать значения: " +
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ n пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " +
                 "n = " + n);
 
-        System.out.println("Это возможно, потому что присваиваем каждый раз разные значение. " +
-                "Например n = 999_999_999, n = 10, n = 10.999_999_999.\n");
+        System.out.println("пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. " +
+                "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ n = 999_999_999, n = 10, n = 10.999_999_999.\n");
 //23
 
 //24
@@ -170,10 +170,10 @@ public class HW3parth2 {
         Object numberIntegerToString = numberInteger.toString(numberInteger);
 
         System.out.println(numberInteger);
-        System.out.println(numberInteger.toString(100)); // перевел в String
+        System.out.println(numberInteger.toString(100)); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ String
         System.out.println(numberInteger.toString(numberInteger));
-        System.out.println(numberInteger.getClass()); //.getClass проверяет какого типа значение
-        System.out.println(numberIntegerToString.getClass()); //.getClass проверяет какого типа значение
+        System.out.println(numberInteger.getClass()); //.getClass пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+        System.out.println(numberIntegerToString.getClass()); //.getClass пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 //24
 
 //25
@@ -185,11 +185,11 @@ public class HW3parth2 {
         float meters = 1;
         float miles = 1;
 
-        kilogram = 2.20462f; // присваием, чтобы 1 kg равен 2.20462 lb
-        kilogram *= 50; // умножаем на 50 kg
+        kilogram = 2.20462f; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ 1 kg пїЅпїЅпїЅпїЅпїЅ 2.20462 lb
+        kilogram *= 50; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 50 kg
 
-        lb = 0.45359237f; // присваием, чтобы 1 lb равен 0.45359237 kg
-        lb *= 50;  // умножаем на 50 lb
+        lb = 0.45359237f; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ 1 lb пїЅпїЅпїЅпїЅпїЅ 0.45359237 kg
+        lb *= 50;  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 50 lb
 
         meters = 0.00062f;
         meters *= 100;

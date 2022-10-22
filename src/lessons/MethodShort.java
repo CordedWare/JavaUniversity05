@@ -5,8 +5,8 @@ public class MethodShort {
     public static void printKLMActions(int parameter1, int parameter2, String varName1, String varName2) {
         int quotient = parameter1 / parameter2;
         int remainder = parameter1 % parameter2;
-        System.out.println("Результат деления " + varName1 + " на " + varName2 + " = " + quotient
-                                                      + ", а остаток от деления = " + remainder);
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + varName1 + " пїЅпїЅ " + varName2 + " = " + quotient
+                                                      + ", пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ = " + remainder);
     }
 
     public static void main(String[] args) {

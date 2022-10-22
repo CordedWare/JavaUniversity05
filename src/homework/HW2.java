@@ -31,7 +31,7 @@ public class HW2 {
 
             System.out.println("1. Sum of x and y = " + (x + z) + "\n");
             System.out.println("2. x * y = " + (x * z) + "\n");
-            System.out.println("3. Разность переменных y и z = " + (y - z) + "\n");
+            System.out.println("3. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ y пїЅ z = " + (y - z) + "\n");
         }
 
         {
@@ -42,9 +42,9 @@ public class HW2 {
 
             int apple = 40, student = 6;
 
-            System.out.println("Если, " + apple + " яблок поделить на " + student + " студентов, то каждый студент " +
-                    "получит по " + (apple / student) + " яблок(а), и " + ((apple / student) - student) +
-                    " яблок(а) останется учителю.\n");
+            System.out.println("пїЅпїЅпїЅпїЅ, " + apple + " пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ " + student + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ " +
+                    "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ " + (apple / student) + " пїЅпїЅпїЅпїЅпїЅ(пїЅ), пїЅ " + ((apple / student) - student) +
+                    " пїЅпїЅпїЅпїЅпїЅ(пїЅ) пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\n");
         }
 
         {
@@ -55,9 +55,9 @@ public class HW2 {
 
             int apple = 100, student = 21;
 
-            System.out.println("Если, " + apple + " яблок поделить на " + student + " студента, то каждый студент " +
-                    "получит по " + (apple / student) + " яблока, и " + (apple - (apple / student) * student) +
-                    " яблок останется учителю.\n");
+            System.out.println("пїЅпїЅпїЅпїЅ, " + apple + " пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ " + student + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ " +
+                    "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ " + (apple / student) + " пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅ " + (apple - (apple / student) * student) +
+                    " пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\n");
         }
 
         {
@@ -71,7 +71,7 @@ public class HW2 {
             int apple = (x1 + lemon);
             int pear = (apple - 12);
 
-            System.out.println(apple + pear + lemon + " кг фруктов принесли в столовую.\n");
+            System.out.println(apple + pear + lemon + " пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\n");
         }
 
         {
@@ -87,7 +87,7 @@ public class HW2 {
             int nozhkiBolyat = 2;
             int nozhkiZdorovye = (nozhki - nozhkiNoyout - nozhkiGudyat - nozhkiChromaut - nozhkiBolyat);
 
-            System.out.println(nozhkiZdorovye + " здоровых ножек.\n");
+            System.out.println(nozhkiZdorovye + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ.\n");
         }
 
         {
@@ -103,13 +103,13 @@ public class HW2 {
             z = 9 * z1;
 
             if (x > 7) {
-                System.out.println(x + " больше, чем 7 в " + x1 + " раз.");
+                System.out.println(x + " пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ 7 пїЅ " + x1 + " пїЅпїЅпїЅ.");
             }
             if (y1 < y) {
-                System.out.println(y1 + " меньше, чем 48 в " + (y - 42) + " раз.");
+                System.out.println(y1 + " пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ 48 пїЅ " + (y - 42) + " пїЅпїЅпїЅ.");
             }
             if (z > z1) {
-                System.out.println(z + " больше, чем 6 в " + (z - 45) + " раз.\n");
+                System.out.println(z + " пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ 6 пїЅ " + (z - 45) + " пїЅпїЅпїЅ.\n");
             }
         }
 
@@ -122,15 +122,15 @@ public class HW2 {
             int a, b, c, d;
 
             if ((48 % 8) == 0) {
-                System.out.println("Число 48 кратно 8, записывается как: (48 % 8) == 0\n");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅ 48 пїЅпїЅпїЅпїЅпїЅпїЅ 8, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ: (48 % 8) == 0\n");
             }
 
             if ((6 * 8) == 48) {
-                System.out.println("Число 8 меньше, чем 48 в 6 раз. Решение: (6 * 8) == 48 \n");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅ 8 пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ 48 пїЅ 6 пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: (6 * 8) == 48 \n");
             }
 
             if ((6 * 9) == 54) {
-                System.out.println("Число 54 больше, чем 6 в 9 раз. Решение: (6 * 9) == 56)\n");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅ 54 пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ 6 пїЅ 9 пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: (6 * 9) == 56)\n");
             }
         }
 
@@ -229,7 +229,7 @@ public class HW2 {
 
             X = (maxDay / (fiveteenShirtsFromFiveDayWork / FiveDayWork));
 
-            System.out.println("За " + X + " дня, сошьют " + maxDay + " костюмов.");
+            System.out.println("пїЅпїЅ " + X + " пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ " + maxDay + " пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
         }
 
         {
@@ -259,7 +259,7 @@ public class HW2 {
             int dD = 4;
             xX = dD;
 
-            System.out.println("(х + 3)*2 = " + ((xX + yY)*2));
+            System.out.println("(пїЅ + 3)*2 = " + ((xX + yY)*2));
 
         }
 
@@ -278,10 +278,10 @@ public class HW2 {
             double twoVar = ((10*(yNew - 5)*(a + b + c))/xNew);
             double threeVar = (9*((4/xNew)+((9+xNew)/yNew)));
 
-            System.out.println("1-e действие решения: (3 + 4x)/5 = " + oneVar + "\n");
-            System.out.println("2-e действие решения: (10(y - 5)(a + b + c)) / x = " + twoVar + "\n");
-            System.out.println("3-e действие решения: 9(((4/x)+((9+x)/y)) = " + threeVar + "\n");
-            System.out.println("4-e действие решения: (1 решение) - (2 решение) + (3 решение) = " + (oneVar - twoVar + threeVar) + "\n");
+            System.out.println("1-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: (3 + 4x)/5 = " + oneVar + "\n");
+            System.out.println("2-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: (10(y - 5)(a + b + c)) / x = " + twoVar + "\n");
+            System.out.println("3-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 9(((4/x)+((9+x)/y)) = " + threeVar + "\n");
+            System.out.println("4-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: (1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) - (2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) + (3 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ) = " + (oneVar - twoVar + threeVar) + "\n");
 
         }
 
@@ -303,11 +303,11 @@ public class HW2 {
             double threeVar2 = (oneVar2 / twoVar2);
             double forVar2 = (a + b + (c/d) + ((a+b)/(c+d)) + (a * b));
 
-            System.out.println("1-e действие решения: ((5x + 7y)/(8x + 10y)) = " + oneVar2 + "\n");
-            System.out.println("2-e действие решения: ((3x-y)/(x+y)) = " + twoVar2 + "\n");
-            System.out.println("3-e действие решения: ((5x + 7y)/(8x + 10y))/((3x-y)/(x+y)) = " + threeVar2 + "\n");
-            System.out.println("4-e действие решения: a + b + (c/d) + ((a+b)/(c+d)) + a * b = " + forVar2 + "\n");
-            System.out.println("5-e действие решения: ((5x + 7y)/(8x + 10y))/((3x-y)/(x+y)) / (a + b + (c/d) + ((a+b)/(c+d)) + a * b) = " + (threeVar2 / forVar2) + "\n");
+            System.out.println("1-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ((5x + 7y)/(8x + 10y)) = " + oneVar2 + "\n");
+            System.out.println("2-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ((3x-y)/(x+y)) = " + twoVar2 + "\n");
+            System.out.println("3-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ((5x + 7y)/(8x + 10y))/((3x-y)/(x+y)) = " + threeVar2 + "\n");
+            System.out.println("4-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: a + b + (c/d) + ((a+b)/(c+d)) + a * b = " + forVar2 + "\n");
+            System.out.println("5-e пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ((5x + 7y)/(8x + 10y))/((3x-y)/(x+y)) / (a + b + (c/d) + ((a+b)/(c+d)) + a * b) = " + (threeVar2 / forVar2) + "\n");
 
         }
 

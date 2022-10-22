@@ -4,7 +4,7 @@ public class Lesson6 {
 
     public static void printTestResult(String value) {
         System.out.println(value);
-    } // метод печати отчета
+    } // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
     public static String verifyEquals(double exceptedResult, double actualResult) {
         if (exceptedResult == actualResult) {
@@ -12,7 +12,7 @@ public class Lesson6 {
         } else {
             return "\033[1;31m" + "Fail" + "\u001B[0m";
         }
-    } // метод double сравнения
+    } // пїЅпїЅпїЅпїЅпїЅ double пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
     public static double returnABC (double a, double b, double c) {
         double abc = a * b - c;
@@ -27,18 +27,18 @@ public class Lesson6 {
     public static void main(String[] args) {
 
         // TC_1
-        // AAA - triple "A" правило создания автоматизированного тест кейса
+        // AAA - triple "A" пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
-        // A = arrange (объявить все данные, которые нам известны)
+        // A = arrange (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
         double a = 7;
         double b = 2;
         double c = 4;
         double exceptedResult = 10;
 
-        // A = act - произвести какие-то действия (н-р, вызвать метод) для получения actual result
+        // A = act - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ-пїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ actual result
         double actualResult = returnABC(a,b,c);
 
-        // A = assert - сравнение expectedResult с actualResult и вывод о том, прошел тест или упал
+        // A = assert - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ expectedResult пїЅ actualResult пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         verifyEquals(exceptedResult,actualResult);
 
         // Report TC_1

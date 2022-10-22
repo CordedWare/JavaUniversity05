@@ -1,7 +1,5 @@
 package homework;
 
-import java.time.temporal.ValueRange;
-
 public class HW6 {
 
     static int tcNumber = 1;

@@ -14,10 +14,10 @@ public class Lesson6_P1 {
 //            }
 //        }
 
-//        char letter = 'ÿ';
+//        char letter = 'ï¿½';
 //        //System.out.println((int)letter);
 //
-//        for (int i = 'à'; i <= 'ÿ'; i++) {
+//        for (int i = 'ï¿½'; i <= 'ï¿½'; i++) {
 //            System.out.println((char)i);
 
         for (int i = 1; i <= 100; i++) {

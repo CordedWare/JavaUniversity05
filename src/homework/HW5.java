@@ -1,7 +1,5 @@
 package homework;
 
-import static java.lang.Double.compare;
-
 public class HW5 {
     static int tcNumber = 1; // для нумерации тестов
     public static void printTCNumber() {
